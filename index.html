@@ -9,7 +9,7 @@
   <!-- /OGP -->
   <link rel="stylesheet" href="dist/output.css">
   <link rel="stylesheet" href="style.css">
-  <script>
+ <!-- <script>
     (function(d) {
       var config = {
         kitId: 'axb6imk',
@@ -18,7 +18,10 @@
       },
       h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
     })(document);
-  </script>
+  </script> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Zen+Maru+Gothic:wght@400&display=swap" rel="stylesheet">
   <!-- Twitter Card -->
   <!-- /Twitter Card -->
 </head>
@@ -26,36 +29,70 @@
 <div class="bgimage"></div>
 <body>
   <header class="sticky top-0 z-50 headershadow flex justify-center">
-    <a href="" class="w-56 sm:w-64 my-1">
+    <a href="#" class="w-56 sm:w-64 my-1">
       <img src="images/logo.svg">
     </a>
   </header>
 
   <div class="max-w-screen-md mx-auto pt-4 pb-10">
     <h1 class="marub text-3xl font-bold text-center text-slate-900">水辺で乾杯！利根運河2023</h1>
-    <h1 class="marub text-3xl font-bold text-center text-slate-900">特設サイト</h1>
     <div class="bg-white rounded-lg shadow-lg mx-auto mojiblock text-slate-700 p-4 mt-4">
-      <h2 class="text-xl marub">🍺企画について🍺</h2>
+      <h2 class="text-xl marub text-yellow-700">🍺企画について🍺</h2>
       <p class="marur">水辺で乾杯TONEUNGA</p>
       <p class="marur">両日、運河水辺公園に屋台が並び、演奏やダンスなどのステージが楽しめます。近隣店舗も参加し、特別メニューなどを販売します。</p>
-      <h2 class="marub text-xl text-center text-slate-700 mt-4">ポスター</h2>
-      <img src="images/mizbering_toneunga_poster_2023.jpg">
-      <h3 class="text-lg marub mt-2">7日(金)16時～19時30分</h2>
-      <p class="marur">「乾杯セレモニー」全国の水辺で行われる一斉乾杯に利根運河も初参加。夜7時7分にみんなで乾杯します。</p>
-      <h3 class="text-lg marub mt-2">8日(土)15時～19時</h2>
-      <p class="marur">「利根運河の夏祭り」縁日ブースが加わり、盆踊りタイムもあり。<br>雨天中止</p>
-      <h3 class="text-lg marub mt-4">注意事項</h3>
-        <ul class="list-inside list-disc marur">
-          <li>ファンレターのみの受付となります。</li>
-          <li>送付先住所に直接ファンレターを持ち込むことはご遠慮ください。</li>
-          <li>大学へ送付することは禁止させていただきます。</li>
-          <li>お受け取りできないプレゼントに関しては、運営側で処分させていただきます。</li>
-        </ul>
+      <div class="flex flex-wrap text-center mt-2">
+        <dev class="w-full md:w-1/2 lg:w-1/3">
+          <section class="bg-yellow-200 rounded-full my-2 mx-2 hover:opacity-80">
+            <a href="#stage">
+              <h3 class="text-xl text-slate-800 pt-2 marub anchor">ステージ</h3>
+              <p class="text-slate-600 pt-1 pb-2 marur">団体のパフォーマンス</p>
+            </a>
+          </section>
+        </dev>
+        <dev class="w-full md:w-1/2 lg:w-1/3">
+          <section class="bg-slate-200 rounded-full my-2 mx-2 hover:opacity-80">
+            <a href="#stamp">
+              <h3 class="text-xl text-slate-800 pt-2 marub anchor">スタンプラリー</h3>
+              <p class="text-slate-600 pt-1 pb-2 marur">スマホで参加しよう</p>
+            </a>
+          </section>
+        </dev>
+        <dev class="w-full md:w-1/2 lg:w-1/3">
+          <section class="bg-sky-200 rounded-full my-2 mx-2 hover:opacity-80">
+            <a href="#stall">
+              <h2 class="text-xl text-slate-800 pt-2 marub">屋台</h2>
+              <p class="text-slate-600 pt-1 pb-2 marur">おなかすいた</p>
+            </a>
+          </section>
+        </dev>
+        <dev class="w-full md:w-1/2 lg:w-1/3">
+          <section class="bg-red-200 rounded-full my-2 mx-2 hover:opacity-80">
+            <a href="#restaurant">
+              <h2 class="text-xl text-slate-800 pt-2 marub">周辺店舗</h2>
+              <p class="text-slate-600 pt-1 pb-2 marur">たべよう</p>
+            </a>
+          </section>
+        </dev>
       </div>
-    <h2 class="marub text-2xl text-center text-slate-700 mt-4">ステージ</h2>
+      <!-- <h2 class="marub text-xl text-center text-slate-700 mt-4">ポスター</h2>
+      <img src="images/mizbering_toneunga_poster_2023.jpg"> -->
+      <h3 class="text-lg marub mt-4">7日(金)16時～19時30分</h2>
+      <p class="marur text-center text-green-600">チェックシャツで乾杯！</p>
+      <p class="marur">「乾杯セレモニー」全国の水辺で行われる一斉乾杯に利根運河も初参加。夜7時7分にみんなで乾杯します。</p>
+      <h3 class="text-lg marub mt-4">8日(土)15時～19時</h3>
+      <p class="marur text-center text-orange-600">浴衣で乾杯！</p>
+      <p class="marur">「利根運河の夏祭り」縁日ブースが加わり、盆踊りタイムもあり。</p>
+    </div>
+    <span id="stall" class="anchor"></span>
+    <h2 class="marub text-2xl text-center text-slate-900 mt-8">屋台</h2>
+    <span id="stamp" class="anchor"></span>
+    <h2 class="marub text-2xl text-center text-slate-900 mt-8">スタンプラリー</h2>
+    <span id="stage" class="anchor"></span>
+    <h2 class="marub text-2xl text-center text-slate-900 mt-8">ステージ</h2>
     <img src="images/stage.jpg" class="logoimg text-center mt-2 mx-auto rounded-lg shadow-lg">
 
-    <h2 class="marub text-2xl text-center text-slate-700 mt-4">近隣店舗</h2>
+    <span id="restaurant" class="anchor"></span>
+    <h2 class="marub text-2xl text-center text-slate-900 mt-8">近隣店舗</h2>
     <img src="images/restaurant.jpg" class="logoimg text-center mt-2 mx-auto rounded-lg shadow-lg">
 
     <img src="https://edge-server.224.works/pyramid/pyramid_front_view_sm.jpg" class="logoimg text-center mt-2 mx-auto rounded-lg shadow-lg">
@@ -70,45 +107,9 @@
         <li>お受け取りできないプレゼントに関しては、運営側で処分させていただきます。</li>
       </ul>
     </div>
-    <img src="https://edge-server.224.works/pyramid/pyramid_front_view_sm.jpg" class="logoimg text-center mt-2 mx-auto rounded-lg shadow-lg">
-    <div class="bg-white rounded-lg shadow-lg mx-auto mojiblock text-slate-700 p-4 mt-4">
-    <h2 class="text-xl marub">🎀ファンレターについて🎀</h2>
-    <p class="marur">東京都中央区日本橋浜町3-7-10 アゼリアワークス合同会社（タレント名）宛</p>
-    <h3 class="text-lg marub mt-4">注意事項</h3>
-      <ul class="list-inside list-disc marur">
-        <li>ファンレターのみの受付となります。</li>
-        <li>送付先住所に直接ファンレターを持ち込むことはご遠慮ください。</li>
-        <li>大学へ送付することは禁止させていただきます。</li>
-        <li>お受け取りできないプレゼントに関しては、運営側で処分させていただきます。</li>
-      </ul>
-    </div>
-    <img src="https://edge-server.224.works/pyramid/pyramid_front_view_sm.jpg" class="logoimg text-center mt-2 mx-auto rounded-lg shadow-lg">
-    <div class="bg-white rounded-lg shadow-lg mx-auto mojiblock text-slate-700 p-4 mt-4">
-    <h2 class="text-xl marub">🎀ファンレターについて🎀</h2>
-    <p class="marur">東京都中央区日本橋浜町3-7-10 アゼリアワークス合同会社（タレント名）宛</p>
-    <h3 class="text-lg marub mt-4">注意事項</h3>
-      <ul class="list-inside list-disc marur">
-        <li>ファンレターのみの受付となります。</li>
-        <li>送付先住所に直接ファンレターを持ち込むことはご遠慮ください。</li>
-        <li>大学へ送付することは禁止させていただきます。</li>
-        <li>お受け取りできないプレゼントに関しては、運営側で処分させていただきます。</li>
-      </ul>
-    </div>
-    <img src="https://edge-server.224.works/pyramid/pyramid_front_view_sm.jpg" class="logoimg text-center mt-2 mx-auto rounded-lg shadow-lg">
-    <div class="bg-white rounded-lg shadow-lg mx-auto mojiblock text-slate-700 p-4 mt-4">
-    <h2 class="text-xl marub">🎀ファンレターについて🎀</h2>
-    <p class="marur">東京都中央区日本橋浜町3-7-10 アゼリアワークス合同会社（タレント名）宛</p>
-    <h3 class="text-lg marub mt-4">注意事項</h3>
-      <ul class="list-inside list-disc marur">
-        <li>ファンレターのみの受付となります。</li>
-        <li>送付先住所に直接ファンレターを持ち込むことはご遠慮ください。</li>
-        <li>大学へ送付することは禁止させていただきます。</li>
-        <li>お受け取りできないプレゼントに関しては、運営側で処分させていただきます。</li>
-      </ul>
-    </div>
 
     <div class="bg-white rounded-lg shadow-lg mx-auto mojiblock text-slate-700 mt-4">
-      <a href="https://idol.co.jp/" class="flex p-3">
+      <a href="http://idol.co.jp/" class="flex p-3">
         <div class="bg-white rounded-lg shadow w-16 p-1 flex-none">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -70 640 640" fill="#1E3050"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M36.8 192H603.2c20.3 0 36.8-16.5 36.8-36.8c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0H121.7c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM64 224V384v80c0 26.5 21.5 48 48 48H336c26.5 0 48-21.5 48-48V384 224H320V384H128V224H64zm448 0V480c0 17.7 14.3 32 32 32s32-14.3 32-32V224H512z"/></svg>
         </div>
