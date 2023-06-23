@@ -1,16 +1,11 @@
-.yomogibold {
-    font-family: "yomogi", sans-serif;
+.marur {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.marub {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
     font-weight: 700;
-    font-style: normal;
-}
-.yomogi {
-    font-family: "yomogi", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.marutitle {
-    font-family: "ta-kasanemarugo", sans-serif;
-    font-weight: 400;
     font-style: normal;
 }
 .logoimg {
