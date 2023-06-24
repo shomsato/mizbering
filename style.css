@@ -29,14 +29,14 @@ span.anchor {
     width: 40rem;
     max-width: 95%;
     background-size: 20rem;
-    background-image: url(https://edge-server.224.works/logo.png);
+    background-image: url();
     background-repeat:  no-repeat;
     background-position: top right;
 }
 .coverblock {
     width: 40rem;
     max-width: 95%;
-    background-image: url(https://edge-server.224.works/AzaleaWorks_ToneungaDrone.jpg);
+    background-image: url();
     background-repeat:  no-repeat;
     background-position: center center;
     background-color:rgba(225, 250, 255, 0.85);
@@ -46,7 +46,7 @@ span.anchor {
 .darkblock {
     width: 40rem;
     max-width: 95%;
-    background-image: url(https://edge-server.224.works/unga_3d.jpg);
+    background-image: url();
     background-repeat:  no-repeat;
     background-position: center center;
     background-color:rgba(10, 20, 45, 0.85);
