@@ -8,14 +8,14 @@ span.anchor {
 }
 
 .marur {
-    font-family: fot-tsukuardgothic-std, sans-serif;
-    font-weight: 400;
+    font-family: vdl-v7marugothic, sans-serif;
     font-style: normal;
+    font-weight: 500;
 }
 .marub {
-    font-family: fot-tsukuardgothic-std, sans-serif;
-    font-weight: 700;
+    font-family: vdl-v7marugothic, sans-serif;
     font-style: normal;
+    font-weight: 700;
 }
 .imgblock {
     width: 40rem;
