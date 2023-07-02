@@ -11,9 +11,15 @@ const rewriteTime = () => {
   const min = Math.floor(differ / 1000 / 60) % 60;
   const hour = Math.floor(differ / 1000 / 60 / 60);
 
-  elmHour.textContent = String(hour).padStart(2, "0");
-  elmMin.textContent = String(min).padStart(2, "0");
-  elmSec.textContent = String(sec).padStart(2, "0");
+  if (now > kanpaiTime) {
+    elmHour.textContent = String(0);
+    elmMin.textContent = String(0).padStart(2, "0");
+    elmSec.textContent = String(0).padStart(2, "0");
+  } else {
+    elmHour.textContent = String(hour);
+    elmMin.textContent = String(min).padStart(2, "0");
+    elmSec.textContent = String(sec).padStart(2, "0");
+  }
 };
 
 setInterval(rewriteTime, 1000);
