@@ -66,6 +66,3 @@ span.anchor {
     background-color: rgba(250, 250, 250, 0.85);
     z-index: -2;
 }
-.sign {
-    pointer-events: none;
-}
